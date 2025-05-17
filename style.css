@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #2d2dff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.text{
+    text-align: center;
+}
+.center {
+    text-align:center;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+.bg-container-home {
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+select, button {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  background-color: aquamarine;
+  border-top-right-radius:12px;
+  border-top-left-radius:12px;
+  border-bottom-right-radius:12px;
+  border-bottom-left-radius:12px;
+}
+
+.output {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#transcriptBox {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+footer {
+  background: #2d2dff;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dyokv0cn7/image/upload/v1747466256/WhatsApp_Image_2025-05-17_at_12.20.04_PM_goolsm.jpg");
+    height: 200vh;
+    background-size: cover;
+
+
+}
+
+.card-container-home {
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 25px;
+
+}
+
+.card-container-heading-home {
+    font-size: 30px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #5752ab;
+}
+
+.card-container-text-home {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #323f4b;
+}
+
+.button1-home {
+    font-family: "Roboto";
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 20px;
+
+}
+
+.button2-home {
+    font-family: "Roboto";
+    background-color: #323f4b;
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.pic{
+    width:400x;
+    height:400px;
+}
